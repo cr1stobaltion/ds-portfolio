@@ -1,0 +1,175 @@
+/* ================================
+   Cristobal Data Science Portfolio
+   ================================ */
+
+/* Main website background */
+body {
+  background: #f4f7fb !important;
+  color: #172033 !important;
+  font-family: "Segoe UI", Arial, sans-serif !important;
+}
+
+/* Main content area */
+main,
+.bd-main {
+  background: #f4f7fb !important;
+}
+
+/* Main content width and spacing */
+.bd-content {
+  max-width: 1000px !important;
+  margin: auto !important;
+  padding: 35px !important;
+}
+
+/* Website title */
+h1 {
+  color: #123b70 !important;
+  font-size: 2.5rem !important;
+  font-weight: 800 !important;
+  letter-spacing: -1px;
+  margin-bottom: 20px !important;
+}
+
+/* Main section headings */
+h2 {
+  color: #123b70 !important;
+  font-size: 1.8rem !important;
+  font-weight: 750 !important;
+  border-bottom: 3px solid #3b82f6;
+  padding-bottom: 8px;
+  margin-top: 45px !important;
+}
+
+/* Subheadings */
+h3 {
+  color: #1d4ed8 !important;
+  font-weight: 700 !important;
+  margin-top: 25px !important;
+}
+
+/* Paragraphs */
+p {
+  line-height: 1.8 !important;
+  font-size: 16px !important;
+}
+
+/* Lists */
+li {
+  line-height: 1.8 !important;
+  margin-bottom: 5px;
+}
+
+/* Bold text */
+strong {
+  color: #123b70 !important;
+}
+
+/* Horizontal lines */
+hr {
+  border: 0 !important;
+  border-top: 1px solid #d8e1ef !important;
+  margin: 35px 0 !important;
+}
+
+/* Images and certificates */
+img {
+  max-width: 100% !important;
+  height: auto !important;
+  border-radius: 14px !important;
+  box-shadow: 0 8px 25px rgba(15, 35, 70, 0.12) !important;
+  margin: 15px 0 !important;
+}
+
+/* Certificate images */
+img[alt*="Certificate"] {
+  display: block;
+  margin: 25px auto !important;
+  border: 1px solid #d9e2f0;
+}
+
+/* Code blocks */
+pre {
+  border-radius: 12px !important;
+  border: 1px solid #dbe5f1 !important;
+}
+
+/* Inline code */
+code {
+  color: #1d4ed8 !important;
+  background: #e8f0ff !important;
+  border-radius: 5px;
+  padding: 2px 5px;
+}
+
+/* Links */
+a {
+  color: #2563eb !important;
+  font-weight: 600;
+}
+
+a:hover {
+  color: #1e40af !important;
+  text-decoration: underline;
+}
+
+/* Sidebar */
+.bd-sidebar-primary {
+  background: #0f2747 !important;
+  border-right: none !important;
+}
+
+/* Sidebar text */
+.bd-sidebar-primary a {
+  color: #eaf2ff !important;
+  font-weight: 500 !important;
+}
+
+/* Sidebar selected item */
+.bd-sidebar-primary .current > a,
+.bd-sidebar-primary a:hover {
+  color: #ffffff !important;
+  background: #1d4ed8 !important;
+  border-radius: 8px !important;
+}
+
+/* Header/navigation */
+.bd-header {
+  background: #123b70 !important;
+  border-bottom: none !important;
+}
+
+/* Header links */
+.bd-header a {
+  color: white !important;
+}
+
+/* Main content cards */
+article,
+.bd-article {
+  background: white !important;
+  border-radius: 18px !important;
+  padding: 35px !important;
+  box-shadow: 0 8px 30px rgba(15, 35, 70, 0.08) !important;
+}
+
+/* Improve mobile display */
+@media (max-width: 768px) {
+  .bd-content {
+    padding: 18px !important;
+  }
+
+  article,
+  .bd-article {
+    padding: 22px !important;
+    border-radius: 12px !important;
+  }
+
+  h1 {
+    font-size: 2rem !important;
+  }
+
+  h2 {
+    font-size: 1.5rem !important;
+  }
+}

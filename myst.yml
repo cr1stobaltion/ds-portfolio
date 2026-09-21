@@ -1,0 +1,48 @@
+version: 1
+
+project:
+  title: Cristobal Tion | Data Science Portfolio
+  description: Data Science Academic Portfolio
+
+  toc:
+
+    - file: index.md
+
+    - title: Featured Projects
+      children:
+
+        - title: SmartTripCDO
+          file: projects/smarttripcdo.md
+
+    - title: Activities
+      children:
+
+        - title: Lab Task 1
+          file: activities/01_lab_task_1.ipynb
+
+        - title: Lecture Task 1
+          file: activities/02_lecture_task_1.ipynb
+
+        - title: Lab Task 2
+          file: activities/03_lab_task_2.ipynb
+
+        - title: Lab Task 3
+          file: activities/04_lab_task_3.ipynb
+
+        - title: Lab Task 4
+          file: activities/05_lab_task_4.ipynb
+
+        - title: Lab Task 5
+          file: activities/06_lab_task_5.ipynb
+
+        - title: Lab Task 6
+          file: activities/07_lab_task_6.ipynb
+
+    - title: Reflections
+      file: reflections/index.md
+
+site:
+  template: book-theme
+
+  options:
+    style: custom.css
