@@ -17,29 +17,32 @@ project:
     - title: Activities
       children:
 
-        - title: Lab Task 1
+        - title: "Laboratory Task 1: Four Types of Data Analytics"
           file: activities/01_lab_task_1.ipynb
 
-        - title: Lecture Task 1
+        - title: "Lecture Task 1: Reflection Paper - WIRED Film: Living in the Age of AI"
           file: activities/02_lecture_task_1.ipynb
 
-        - title: Lab Task 2
+        - title: "Laboratory Task 2: ANN Forward Pass & Error Calculation"
           file: activities/03_lab_task_2.ipynb
 
-        - title: Lab Task 3
+        - title: "Laboratory Task 3: Forward and Backward Propagation (NumPy)"
           file: activities/04_lab_task_3.ipynb
 
-        - title: Lab Task 4
+        - title: "Laboratory Task 4: 2-Layer Linear Regression in PyTorch"
           file: activities/05_lab_task_4.ipynb
 
-        - title: Lab Task 5
+        - title: "Laboratory Task 5: PyTorch Tensor Operations and Manipulation"
           file: activities/06_lab_task_5.ipynb
 
-        - title: Lab Task 6
+        - title: "Laboratory Task 6: Converting CNN Architecture Diagram into PyTorch"
           file: activities/07_lab_task_6.ipynb
 
-    - title: Reflections
-      file: reflections/index.md
+    - title: Laboratory Exercises
+      children:
+
+        - title: "Laboratory Exercise 1 - Image Classification Using Pre-trained Models"
+          file: laboratory-exercises/laboratory-exercise-1.ipynb
 
 site:
   template: book-theme
